@@ -132,7 +132,7 @@
             <div class="my-4 playwrite-gb-s-uniquifier text-lg">(Tức ngày 16.10 năm Giáp Thìn)</div>
             <div class="playwrite-gb-s-uniquifier">Địa điểm tổ chức:</div>
             <div class="text-center playwrite-gb-s-uniquifier text-xl">
-              Số 936 - Đại lộ Hùng Vương ,<br />
+              Trung Tâm hội nghị tỉnh Phú Thọ<br/>Số 936 - Đại lộ Hùng Vương ,<br />
               Phường Thanh Miếu , Việt Trì,Phú Thọ
             </div>
             <button class="mt-10"><a class="z-50 bg-white text-red-700 font-semibold py-2 px-4 rounded-md"
