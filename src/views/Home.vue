@@ -84,13 +84,10 @@
                 </div>
             </section>
         </div>
-        <Aside />
     </main>
 </template>
 
 <script setup>
-
-import Aside from '../components/aside.vue';
 import { ref, onMounted } from 'vue';
 import axios from 'axios';
 import { Swiper, SwiperSlide } from 'swiper/vue';
