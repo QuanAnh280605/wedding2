@@ -119,7 +119,8 @@
             <div class="w-80 h-80 rounded-full overflow-hidden mb-4">
               <img src="/DJH08397.jpg" alt="Groom" class="w-full h-full object-cover" />
             </div>
-            <h2 class="font-cursive text-6xl my-8">Quốc Việt</h2>
+            <h3 class="font-cursive text-4xl">Chú Rể</h3>
+            <h2 class="font-cursive text-6xl my-4">Quốc Việt</h2>
           </div>
           <!-- Wedding info section -->
           <div class="text-center  max-md:order-3 z-20">
@@ -142,7 +143,8 @@
             <div class="w-80 h-80 rounded-full overflow-hidden mb-4">
               <img src="/DJH08289.jpg" alt="Bride" class="w-full h-full object-cover" />
             </div>
-            <h2 class="font-cursive text-6xl my-8">Thùy Trang</h2>
+            <h3 class="font-cursive text-4xl">Cô Dâu</h3>
+            <h2 class="font-cursive text-6xl my-4">Thùy Trang</h2>
           </div>
         </div>
       </section>
