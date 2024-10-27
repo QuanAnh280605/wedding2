@@ -122,7 +122,7 @@
             <h2 class="font-cursive text-6xl my-8">Quốc Việt</h2>
           </div>
           <!-- Wedding info section -->
-          <div class="text-center z-20">
+          <div class="text-center  max-md:order-3 z-20">
             <div class="text-4xl my-4 font-semibold playwrite-gb-s-uniquifier mb-2">Lễ thành hôn được <br /> tổ chức vào
               hồi</div>
             <div class="text-4xl playwrite-gb-s-uniquifier font-bold mb-2">11:00</div>

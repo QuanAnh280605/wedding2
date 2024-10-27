@@ -11,7 +11,6 @@ const routes = [
         name:'App3',
         component: App3,
     }
-
 ];
 
 const router = createRouter({
