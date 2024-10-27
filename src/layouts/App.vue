@@ -13,7 +13,7 @@
       <audio ref="audio" src="/music.mp3"></audio>
     </div>
     <!-- Page Content -->
-    <main class="w-full sc1">
+    <main class="w-full parallax  sc1">
       <header class="relative bg-cover bg-center h-screen w-full text-white">
         <div class="absolute inset-0 bg-black opacity-50"></div>
         <div class="relative z-10 flex flex-col items-center justify-center h-full text-center">
@@ -31,7 +31,7 @@
         <div class="bg"></div>
         <div class="flex flex-col md:flex-row justify-center gap-8 mb-8">
           <!-- Groom's Photo -->
-          <div class="max-w-md w-full">
+          <div class="max-w-lg w-full px-4">
             <Swiper :modules="[Autoplay, Pagination]" :slides-per-view="1" :loop="true"
               :autoplay="{ delay: 3000, disableOnInteraction: false }" :pagination="false" class="mySwiper rounded">
               <SwiperSlide v-for="(image, index) in slider1" :key="index">
@@ -73,18 +73,18 @@
         </div>
       </section>
       <section
-        class="time flex flex-col items-center z-10  justify-center bg-opacity-50 text-white py-12 px-4">
+        class="time parallax  flex flex-col items-center z-10  justify-center bg-opacity-50 text-white py-12 px-4">
 
         <h2 class="xl:text-5xl text-2xl z-50 playwrite-gb-s-uniquifier font-bold my-4">ĐẾM NGƯỢC THỜI GIAN</h2>
-        <p class="mb-6 xl:text-2xl text-xl   playwrite-gb-s-uniquifier">Cùng chờ đợi đến giây phút tuyệt vời nhất</p>
+        <p class="mb-6 xl:text-2xl text-xl  z-50   playwrite-gb-s-uniquifier">Cùng chờ đợi đến giây phút tuyệt vời nhất</p>
 
         <!-- Countdown Display -->
-        <div class="flex gap-4 playwrite-gb-s-uniquifier text-center mb-6">
-          <div class="flex  flex-col">
-            <span class="text-4xl font-bold">{{ days }}</span>
+        <div class="flex gap-4  z-50 playwrite-gb-s-uniquifier text-center mb-6">
+          <div class="flex  z-50  flex-col">
+            <span class="text-4xl  z-50 font-bold">{{ days }}</span>
             <span>Ngày</span>
           </div>
-          <div class="flex  flex-col">
+          <div class="flex  z-50  flex-col">
             <span class="text-4xl font-bold">{{ hours }}</span>
             <span>Giờ</span>
           </div>
@@ -155,7 +155,7 @@
             <hr class=" md:block xl:block hidden md:mb-16 mb-20  w-96 border-t-2 border-white mx-auto">
           </div>
         </div>
-        <div class="w-1/3">
+        <div class="md:w-2/3 xl:w-1/3  w-full">
             <Swiper :modules="[Autoplay, Pagination]" :slides-per-view="1" :loop="true"
               :autoplay="{ delay: 3000, disableOnInteraction: false }" :pagination="false" class="mySwiper rounded">
               <SwiperSlide v-for="(image, index) in slider2" :key="index">
@@ -278,16 +278,7 @@ const toggleAudio = () => {
 </script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap&subset=vietnamese');
 
-.sc1 {
-  background-image: url(/DJH08743.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: relative;
-}
 
 .playwrite-gb-s-uniquifier {
   font-family: "Playwrite GB S", cursive;
@@ -326,13 +317,34 @@ const toggleAudio = () => {
   opacity: 0.05;
   position: absolute;
 }
-
-.time {
-  background-image: url(/DJH08360.jpg);
-  background-attachment: fixed;
+.parallax {
+  height: 100vh;
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
+  background-repeat: no-repeat;
+}
+.time{
+  background-image: url(/DJH08360.jpg);
+}
+.sc1{
+  background-image: url(/DJH08743.jpg);
+}
+.time, .sc1 {
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll; /* Đổi về scroll thay vì fixed */
   position: relative;
+}
+
+/* Tạo lớp phủ màu để giảm sự tập trung vào ảnh nền */
+.time::before, .sc1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3); /* Điều chỉnh độ mờ */
+  z-index: 1;
 }
 </style>
