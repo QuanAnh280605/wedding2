@@ -8,11 +8,6 @@ import App3 from "../layouts/App3.vue";
 const routes = [
     {
         path: '/',
-        name: 'App2',
-        component:App2,
-    },
-    {
-        path: '/nhatrai',
         name:'App3',
         component: App3,
     }
