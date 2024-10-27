@@ -119,10 +119,11 @@
             <div class="w-80 h-80 rounded-full overflow-hidden mb-4">
               <img src="/DJH08397.jpg" alt="Groom" class="w-full h-full object-cover" />
             </div>
-            <h2 class="font-cursive text-6xl my-8">Quốc Việt</h2>
+            <h3 class="font-cursive text-4xl">Chú Rể</h3>
+            <h2 class="font-cursive text-6xl my-4">Quốc Vệt</h2>
           </div>
           <!-- Wedding info section -->
-          <div class="text-center z-20">
+          <div class="text-center z-20 max-md:order-3">
             <div class="text-4xl my-4 font-semibold playwrite-gb-s-uniquifier mb-2">Lễ thành hôn được <br /> tổ chức vào
               hồi</div>
             <div class="text-4xl playwrite-gb-s-uniquifier font-bold mb-2">18:00</div>
@@ -142,7 +143,8 @@
             <div class="w-80 h-80 rounded-full overflow-hidden mb-4">
               <img src="/DJH08289.jpg" alt="Bride" class="w-full h-full object-cover" />
             </div>
-            <h2 class="font-cursive text-6xl my-8">Thùy Trang</h2>
+            <h3 class="font-cursive text-4xl">Cô Dâu</h3>
+            <h2 class="font-cursive text-6xl my-4">Thùy Trang</h2>
           </div>
         </div>
       </section>
@@ -168,12 +170,12 @@
         <div class="bg"></div>
         <h2 class="text-4xl md:text-6xl font-bold playwrite-gb-s-uniquifier xl:text-6xl text-white mb-8 md:mb-16">Hộp
           mừng cưới</h2>
-        <div class="flex max-md:flex-col items-center gap-6 w-full md:w-2/3">
+        <div class="flex items-center gap-6 w-full md:w-2/3">
           <!-- Mừng cưới đến cô dâu -->
           <div
-              class="bg-white shadow-lg rounded-lg w-full max-md:w-5/6 md:px-10 py-8 md:py-10 xl:py-20 flex flex-col items-center text-center">
+              class="bg-white shadow-lg rounded-lg w-full max-md:px-4  md:px-10 py-8 md:py-10 xl:py-20 flex flex-col items-center text-center">
             <div
-                class="bg-red-500 playwrite-gb-s-uniquifier xl:py-5 xl:mb-10 md:text-lg xl:text-3xl text-white px-4 md:px-6 py-2 rounded-full mb-4 font-semibold text-lg">
+                class="bg-red-500 playwrite-gb-s-uniquifier xl:mb-10 max-xl:text-lg text-white px-4 py-2 rounded-full mb-4 font-semibold">
               MỪNG CƯỚI ĐẾN CÔ DÂU
             </div>
             <img src="/qr1.jpg" alt="QR code cô dâu" class="w-36 md:w-64 mb-4" />
@@ -181,9 +183,9 @@
 
           <!-- Mừng cưới đến chú rể -->
           <div
-              class="bg-white shadow-lg rounded-lg max-md:w-5/6 w-full md:px-10 py-8 md:py-10 xl:py-20 flex flex-col items-center text-center">
+              class="bg-white shadow-lg rounded-lg max-md:px-4  w-full md:px-10 py-8 md:py-10 xl:py-20 flex flex-col items-center text-center">
             <div
-                class="bg-pink-400 playwrite-gb-s-uniquifier xl:py-5 xl:mb-10 md:text-lg xl:text-3xl text-white px-4 md:px-6 py-2 rounded-full mb-4 font-semibold text-lg">
+                class="bg-pink-400 playwrite-gb-s-uniquifier xl:mb-10  max-xl:text-lg text-white px-4 py-2 rounded-full mb-4 font-semibold">
               MỪNG CƯỚI ĐẾN CHÚ RỂ
             </div>
             <img src="/qr2.jpg" alt="QR code chú rể" class="w-36 md:w-64 mb-4" />
@@ -191,7 +193,6 @@
         </div>
       </section>
     </main>
-    <router-link class="w-full text-6xl z-50 hidden" to="/nhatrai">Home</router-link>
   </div>
   <SnowFall />
 </template>
