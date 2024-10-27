@@ -191,6 +191,7 @@
         </div>
       </section>
     </main>
+    <router-link class="w-full text-6xl z-50 hidden" to="/nhatrai">Home</router-link>
   </div>
   <SnowFall />
 </template>
