@@ -46,8 +46,8 @@
           <h1 class="text-5xl font-semibold text-gray-800 pacifico-regular my-4">We are Getting Married</h1>
           <!-- Decorative Icon or Divider -->
           <div class="xl:w-1/2 md:w-full mt-8">
-            <p class="roboto-medium text-2xl">Thật vui vì được gặp và đón tiếp các bạn trong một dịp đặc biệt như đám
-              cưới của chúng tôi. Chúng tôi muốn gửi đến bạn những lời cảm ơn sâu sắc nhất và để bạn biết chúng tôi rất
+            <p class="roboto-medium text-2xl">Thật vui vì được gặp và đón tiếp các bạn trong một dịp đặc biệt của gia đình chúng tôi.
+              Chúng tôi muốn gửi đến bạn những lời cảm ơn sâu sắc nhất và để bạn biết chúng tôi rất
               hạnh phúc khi thấy bạn ở đó. Cảm ơn các bạn rất nhiều vì sự hiện diện cùng những lời chúc tốt đẹp mà bạn
               đã dành cho chúng tôi!</p>
           </div>
