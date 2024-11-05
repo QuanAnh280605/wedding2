@@ -19,7 +19,7 @@
         <div class="relative z-10 flex flex-col items-center justify-center h-full text-center">
           <h1 class="xl:text-8xl text-6xl md:text-6xl xl:flex font-bold tracking-wider  roboto-medium">
             <div>Quốc Việt</div>
-            <img src="/—Pngtree—white heart-shaped elements_6070867.png" alt="Heart"
+            <img src="/—Pngtree—white heart-shaped elements_6070867.png" loading="lazy" alt="Heart"
                  class="inline w-24 md:w-28 xl:w-40 mx-2" />
             <div> Thùy Trang</div>
           </h1>
@@ -35,7 +35,7 @@
             <Swiper :modules="[Autoplay, Pagination]" :slides-per-view="1" :loop="true"
                     :autoplay="{ delay: 3000, disableOnInteraction: false }" :pagination="false" class="mySwiper rounded">
               <SwiperSlide v-for="(image, index) in slider1" :key="index">
-                <img :src="image.src" alt="Groom's photo" class="w-full h-auto object-cover" />
+                <img :src="image.src" alt="Groom's photo" loading="lazy" class="w-full h-auto object-cover" />
               </SwiperSlide>
             </Swiper>
           </div>
@@ -117,7 +117,7 @@
           <!-- Groom section -->
           <div class="text-center">
             <div class="w-80 h-80 rounded-full overflow-hidden mb-4">
-              <img src="/DJH08397.jpg" alt="Groom" class="w-full h-full object-cover" />
+              <img src="/DJH08397.jpg" loading="lazy" alt="Groom" class="w-full h-full object-cover" />
             </div>
             <h3 class="font-cursive text-4xl">Chú Rể</h3>
             <h2 class="font-cursive text-6xl my-4">Quốc Việt</h2>
@@ -141,7 +141,7 @@
           <!-- Bride section -->
           <div class="text-center">
             <div class="w-80 h-80 rounded-full overflow-hidden mb-4">
-              <img src="/DJH08289.jpg" alt="Bride" class="w-full h-full object-cover" />
+              <img src="/DJH08289.jpg" loading="lazy" alt="Bride" class="w-full h-full object-cover" />
             </div>
             <h3 class="font-cursive text-4xl">Cô Dâu</h3>
             <h2 class="font-cursive text-6xl my-4">Thùy Trang</h2>
@@ -161,7 +161,7 @@
           <Swiper :modules="[Autoplay, Pagination]" :slides-per-view="1" :loop="true"
                   :autoplay="{ delay: 3000, disableOnInteraction: false }" :pagination="false" class="mySwiper rounded">
             <SwiperSlide v-for="(image, index) in slider2" :key="index">
-              <img :src="image.src" alt="Bride's photo" class="w-full h-auto object-cover" />
+              <img :src="image.src" alt="Bride's photo" loading="lazy" class="w-full h-auto object-cover" />
             </SwiperSlide>
           </Swiper>
         </div>
